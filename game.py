@@ -51,19 +51,10 @@ def redraw_images():
         game_window.blit(wizard_idle[walk_count//3], (x,y))
         walk_count += 1
 
-
-    #else:
-        #game_window.blit(wizard_idle[walk_count//3],(x,y))
-        #walk_count += 1
-        
     pygame.display.update()
-    
-    
-    
 
 isJump = False
 JumpCount = 10
-
 
 run = True
 while run == True:
